@@ -46,7 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Capture the plugin slug
         run: echo "PLUGIN_SLUG=${GITHUB_REPOSITORY##*/}" >> "$GITHUB_ENV"
